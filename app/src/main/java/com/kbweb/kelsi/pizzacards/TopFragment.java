@@ -1,4 +1,4 @@
-package com.kbweb.kelsi.bitsandpizzas;
+package com.kbweb.kelsi.pizzacards;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

@@ -1,4 +1,4 @@
-package com.kbweb.kelsi.bitsandpizzas;
+package com.kbweb.kelsi.pizzacards;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

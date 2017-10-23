@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kbweb.kelsi.bitsandpizzas">
+    package="com.kbweb.kelsi.pizzacards">
 
     <application
         android:allowBackup="true"
@@ -16,13 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity"
+        <activity
+            android:name=".OrderActivity"
             android:label="@string/create_order"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.kbweb.kelsi.pizzacards.MainActivity" />
         </activity>
+        <activity
+            android:name=".PizzaDetailActivity"
+            android:parentActivityName=".PizzaDetailActivity" />
+        <activity android:name=".SaladDetailActivity"
+            android:parentActivityName=".SaladDetailActivity"/>
+        <activity android:name=".StoresDetailActivity"
+            android:parentActivityName=".StoresDetailActivity"/>
+        <activity android:name=".PastaDetailActivity"
+            android:parentActivityName=".PastaDetailActivity"/>
     </application>
 
 </manifest>

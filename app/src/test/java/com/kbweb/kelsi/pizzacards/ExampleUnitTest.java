@@ -1,4 +1,4 @@
-package com.kbweb.kelsi.bitsandpizzas;
+package com.kbweb.kelsi.pizzacards;
 
 import org.junit.Test;
 
